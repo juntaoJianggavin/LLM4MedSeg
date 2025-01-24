@@ -395,7 +395,7 @@ class LLMUet(nn.Module):
         return logits
 
     def load_from(self, weights):
-        checkpoints = sorted(Path("./LLaMA/").glob("*.pth"))
+        checkpoints = sorted(Path("./LLaMA/7B").glob("*.pth"))
         ckpt_path = checkpoints[0]
         checkpoint = torch.load(ckpt_path, map_location="cpu")
         self.transformer.llama.custom_load_state_dict(checkpoint, tail=True, strict=False)
