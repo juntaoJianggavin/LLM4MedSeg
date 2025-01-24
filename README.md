@@ -3,7 +3,7 @@ Official Pytorch implementation of the paper [Can Frozen Transformers in Large L
 
 ## Architecture
 <p align="center">
-<img src="figs/architecture.png" width=80% height=80% 
+<img src="figs/architecture.png" width=60% height=60% 
 class="center">
 </p>
 
