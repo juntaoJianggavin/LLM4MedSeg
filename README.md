@@ -1,5 +1,5 @@
 # LLM-TransUNet
-Official PyTorch implementation of the paper [Can Frozen Transformers in Large Language Models Help with Medical Image Segmentation?](https://openreview.net/forum?id=JOwJe2DGp4), which is published a s a short paper at MIDL2024.
+Official PyTorch implementation of the short paper [Can Frozen Transformers in Large Language Models Help with Medical Image Segmentation?](https://openreview.net/forum?id=JOwJe2DGp4), which is published a s a short paper at MIDL2024.
 
 ## Architecture
 <p align="center">
