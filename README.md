@@ -1,5 +1,5 @@
 # LLM-TransUNet
-Official PyTorch implementation of the short paper [Can Frozen Transformers in Large Language Models Help with Medical Image Segmentation?](https://openreview.net/forum?id=JOwJe2DGp4), which is published a s a short paper at MIDL2024.
+Official PyTorch implementation of the short paper [Can Frozen Transformers in Large Language Models Help with Medical Image Segmentation?](https://openreview.net/forum?id=JOwJe2DGp4), which is published as a short paper at MIDL2024.
 
 ## Architecture
 <p align="center">
@@ -11,7 +11,7 @@ class="center">
 ## Usage
 ### 1. Prepare data
 
-Synapse (BTCV preprocessed data) and ACDC data are available at TransUNet's repo (https://github.com/Beckschen/TransUNet/tree/main). 
+Synapse (BTCV preprocessed data) and ACDC data are available at [TransUNet](https://github.com/Beckschen/TransUNet/tree/main)'s repo. 
 
 The directory structure of the whole project is as follows:
 
@@ -63,12 +63,14 @@ CUDA_VISIBLE_DEVICES=0 python train.py --dataset Synapse --vit_name R50-ViT-B_16
 ```bash
 python test.py --dataset Synapse --vit_name R50-ViT-B_16
 ```
+## Acknowlegement
+This code-base uses certain code-blocks and helper functions from [TransUNet](https://github.com/Beckschen/TransUNet/tree/main) and [LM4VisualEncoding](https://github.com/ziqipang/LM4VisualEncoding).
 
 ## Citations
 
 ``` 
 @inproceedings{jiang2024can,
-  title={Can Frozen Transformer in Large Language Model Help with Medical Image Segmentaion?},
+  title={Can Frozen Transformer in Large Language Model Help with Medical Image Segmentation?},
   author={Jiang, Juntao and Liu, Yong},
   booktitle={Medical Imaging with Deep Learning},
   year={2024}
